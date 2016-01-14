@@ -1,0 +1,11 @@
+[Unit]
+Description=MQTT service
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/mosquitto -c /etc/mosquitto/conf.d
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
