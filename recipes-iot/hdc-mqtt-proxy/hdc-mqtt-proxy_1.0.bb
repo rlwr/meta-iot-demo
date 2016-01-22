@@ -3,8 +3,7 @@ HOMEPAGE = "https://github.com/rlwr/hdc-mqtt-proxy.git"
 LICENSE = "GPL"
 
 SRC_URI = "git://github.com/rlwr/hdc-mqtt-proxy.git"
-SRCREV = "96be565aaee33cf520fcf62586b70e69381b8ba6"
-
+SRCREV = "fb65534436cb1176b0e914a76753efdf5629795f"
 
 LIC_FILES_CHKSUM = "file://LICENSE.GPL;md5=751419260aa954499f7abaabaa882bbe"
 
